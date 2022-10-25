@@ -1,6 +1,6 @@
 Para executar o sistema:
 
-1. Primeiro execute o servidor de dados (projeto web_service)
+1. Primeiro execute o servidor de dados (interface_cliente)
 1. Na raiz do projeto, fora da pasta src/, execute os comandos:
 ```console
     npm install

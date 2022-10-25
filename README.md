@@ -1,7 +1,3 @@
-# Exemplo de cliente com acesso somente à leitura do serviço de persistência de dados.
-
-# Autor: Fabrício G. M. de Carvalho, Ph. D.
-
 Para executar o sistema:
 
 1. Primeiro execute o servidor de dados (projeto web_service)

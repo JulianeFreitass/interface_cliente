@@ -29,7 +29,11 @@ app.use(express.static('src/public'));
 
 app.get('/', listAboutMe);
 app.get('/projetos', listProjectHandler);
+app.get('/contato', contactMe);
 
+function contactMe(req, resp){
+    resp.render('contact_me');
+}
 
 app.listen(port, listenHandler);
 
@@ -74,6 +78,9 @@ function listAboutMe(req, resp){
                 }               
             });    
 }
+
+
+
 
 /* Tratador para inicializar a aplicação (escutar as requisições)*/
 function listenHandler(){
